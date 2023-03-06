@@ -1,0 +1,92 @@
+*
+{
+	box-sizing: border-box;
+}
+
+a
+{
+	text-decoration: none;
+}
+
+body
+{
+	background: black;
+	font-family: JetBrains Mono;
+}
+
+h3
+{
+	color: white;
+}
+
+.topnav
+{
+	overflow: hidden;
+	background: black;
+	padding: 10px;
+}
+
+.topnav a
+{
+	float: left;
+	display: block;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 1.5rem;
+	text-transform: uppercase;
+}
+
+.topnav .search-container
+{
+	float: right;
+}
+
+form
+{
+	background-color: #151f30;
+	width: 300px;
+	height: 45px;
+	border-radius: 10px;
+	display: flex;
+	align-items: center;
+}
+
+input
+{
+	all: unset;
+	font: 20px JetBrains Mono;
+	color: white;
+	height: 100%;
+	width: 100%;
+	padding: 6px 9px;
+}
+
+input::placeholder
+{
+	color: white;
+}
+
+.thumbnail
+{
+	height: 350px;
+	width: 300px;
+	border-radius: 25px;
+}
+
+.column
+{
+	margin-inline: 100px;
+	margin-top: 10vh;
+	float: left;
+	width: 25%;
+	padding: 10px 10px;
+}
+
+.card
+{
+	border-radius: 30px;
+	padding: 15px;
+	text-align: center;
+	background: grey;
+}
